@@ -1,0 +1,22 @@
+<nav class="navbar navbar-default visible-xs-block visible-sm-block">
+  <div class="container">
+    <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#navbar"
+        aria-expanded="false"
+        aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+        <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand">Debeaupuis's webpage</a> </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="CV_Kings-3.pdf"> CV</a></li>
+        <li> <a href="https://orcid.org/0000-0002-1393-3980" target="orcid.widget" rel="me noopener noreferrer">ORCID</a></li>
+        <li> <a href="https://scholar.google.com/citations?user=BOECoQ8AAAAJ&amp;hl=fr&amp;oi=ao" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li{% if include.active == "publi" %} class="active"{% endif %}><a href="publi.html">Publications</a></li>
+        <li{% if include.active == "contact" %} class="active"{% endif %}><a href="contact.html">Contact</a></li>
+        <li{% if include.active == "tools" %} class="active"{% endif %}><a href="tools.html">Tools</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse --> </div>
+</nav>

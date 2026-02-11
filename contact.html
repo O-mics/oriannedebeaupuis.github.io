@@ -1,0 +1,61 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Webpage of Orianne Debeaupuis</title>
+  <meta name="Description" content="Homepage of Orianne Debeaupuis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Keywords" lang="eng" content="Orianne Debeaupuis, Mathematics, Statistical Learning -- Oncohematology and Immunology">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  {% include menu-navbar.html active="contact" %}
+
+  <div class="wrapper">
+    <div class="box">
+      <div class="row">
+        <!-- main -->
+        <div class="column col-sm-8" id="mainimage">
+          <div class="padding">
+            <h3 class="text-center">Contact</h3>
+
+            <p class="text-center">
+              Feel free to get in touch about research collaborations, clinical–computational projects, or joining me in new adventures.
+              I’m currently hiring interns for 2026.
+            </p>
+
+            <p class="text-center">
+              <strong>Email:</strong> orianne.debeaupuis [at] institutimagine.org
+            </p>
+
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <img src="images/hugoprofile.jpg" alt="Profile photo" style="width:70%" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- sidebar -->
+        <div class="column col-sm-4 hidden-xs hidden-sm" id="sidebar">
+          {% include menu-sidebar.html active="contact" %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/accordeon.js"></script>
+</body>
+</html>
