@@ -348,17 +348,17 @@ padding-bottom: 10px;
 }
 
 @media (max-width: 767px) {
-    .wrapper {
+    .home-page .wrapper {
         height: auto;
         min-height: 100vh;
     }
 
-    .wrapper,
-    .row {
+    .home-page .wrapper,
+    .home-page .row {
         height: auto;
     }
 
-    .box {
+    .home-page .box {
         position: relative;
         top: auto;
         right: auto;
@@ -368,12 +368,12 @@ padding-bottom: 10px;
         background-attachment: scroll;
     }
 
-    .column {
+    .home-page .column {
         height: auto;
         overflow: visible;
     }
 
-    .jumbotron {
+    .home-page .jumbotron {
         position: relative;
         top: auto;
         margin-left: 0;
@@ -383,7 +383,7 @@ padding-bottom: 10px;
         min-height: 140px;
     }
 
-    .home-mobile-card {
+    .home-page .home-mobile-card {
         margin: 12px 0 18px;
         padding: 16px;
         border-radius: 10px;
@@ -391,23 +391,23 @@ padding-bottom: 10px;
         box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
     }
 
-    .home-mobile-card h2 {
+    .home-page .home-mobile-card h2 {
         margin-top: 0;
         margin-bottom: 8px;
         font-size: 26px;
     }
 
-    .home-mobile-card p {
+    .home-page .home-mobile-card p {
         margin-bottom: 10px;
         color: #333;
         line-height: 1.5;
     }
 
-    .home-mobile-links .btn {
+    .home-page .home-mobile-links .btn {
         margin: 4px 6px 4px 0;
     }
 
-    .site-footer {
+    .home-page .site-footer {
         position: static;
         text-align: center;
         padding: 10px 12px 12px;
