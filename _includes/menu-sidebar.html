@@ -1,8 +1,10 @@
 <div class="jumbotron">
 <h5>
-  <font size="6" color="#FFFFFF" class="sidebar-name">
-    Orianne Debeaupuis PharmD, PhD, X19
-  </font>
+  <a href="index.html" style="text-decoration: none;">
+    <font size="6" color="#FFFFFF" class="sidebar-name">
+      Orianne Debeaupuis PharmD, PhD, X19
+    </font>
+  </a>
 </h5>
 
 <p class="sidebar-tagline">
@@ -29,6 +31,13 @@
   {% else %}
   <a href="contact.html">
     <h5><font size="3">Contact</font></h5>
+  </a>
+  {% endif %}
+  {% if include.active == "supervision" %}
+  <h5><font size="3" color="#FFFFFF">Supervision</font></h5>
+  {% else %}
+  <a href="supervision.html">
+    <h5><font size="3">Supervision</font></h5>
   </a>
   {% endif %}
   {% if include.active == "tools" %}
