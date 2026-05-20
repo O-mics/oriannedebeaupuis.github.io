@@ -347,6 +347,73 @@ padding-bottom: 10px;
     }
 }
 
+@media (max-width: 767px) {
+    .wrapper {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .wrapper,
+    .row {
+        height: auto;
+    }
+
+    .box {
+        position: relative;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        min-height: 100vh;
+        background-attachment: scroll;
+    }
+
+    .column {
+        height: auto;
+        overflow: visible;
+    }
+
+    .jumbotron {
+        position: relative;
+        top: auto;
+        margin-left: 0;
+        margin-bottom: 18px;
+        -webkit-transform: none;
+        transform: none;
+        min-height: 140px;
+    }
+
+    .home-mobile-card {
+        margin: 12px 0 18px;
+        padding: 16px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+    }
+
+    .home-mobile-card h2 {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 26px;
+    }
+
+    .home-mobile-card p {
+        margin-bottom: 10px;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    .home-mobile-links .btn {
+        margin: 4px 6px 4px 0;
+    }
+
+    .site-footer {
+        position: static;
+        text-align: center;
+        padding: 10px 12px 12px;
+    }
+}
+
 /*********************/
 /* The Close Buttons */
 /*********************/
