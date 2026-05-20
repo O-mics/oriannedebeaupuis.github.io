@@ -1,0 +1,30 @@
+Verified links already added in publi.html:
+- 10.1111/pai.70373
+- 10.1093/nar/gkaf404
+- 10.1038/s44321-025-00317-0
+- 10.1016/j.gastha.2025.100808
+- 10.1002/hem3.70256
+- 10.1016/j.tcb.2019.01.004
+- 10.3389/fimmu.2017.01277
+- 10.48550/arXiv.2603.22195
+
+Please fill any missing link or DOI below if you want it clickable on the site:
+
+1. ResearchArena-CayleyBench: RL/LLM Benchmark challenges which can advance mathematical research.
+   Link or DOI: https://openreview.net/pdf?id=QMqPAp1mVr
+
+2. CayleyPy Growth: Efficient growth computations and hundreds of new conjectures on Cayley graphs.
+   Link or DOI: https://neurips.cc/virtual/2025/loc/san-diego/131055
+
+3. Hierarchical biomarker thresholding: a model-agnostic framework for stability.
+   Link or DOI: https://doi.org/10.48550/arXiv.2511.18030
+https://doi.org/10.48550/arXiv.2511.18030
+
+4. CayleyPy Growth: Efficient growth computations and hundreds of new conjectures on Cayley graphs (Brief version).
+   Link or DOI: https://doi.org/10.48550/arXiv.2509.19162
+
+5. Repair mechanisms of DNA interstrand cross-link in Escherichia coli MDS42 induced by the alkylating agent SJG-136.
+   Link or DOI: - 
+
+6. Causal inference for reliable biomarker discovery with applications to cancer and autoimmune interactions.
+   Link or DOI: https://doi.org/10.70675/24885477z4be8z4dcfzb9b9z2312962536cd

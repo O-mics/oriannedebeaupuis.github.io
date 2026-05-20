@@ -12,6 +12,13 @@
 </p>
 
   <br>
+  {% if include.active == "home" %}
+  <h5><font size="3" color="#FFFFFF">Home</font></h5>
+  {% else %}
+  <a href="index.html">
+    <h5><font size="3">Home</font></h5>
+  </a>
+  {% endif %}
   <h5>
     <a href="CV_Kings-3.pdf"> <font size="3">CV</font></a>
     &nbsp; <font size="3" color="#FFFFFF">|</font>&nbsp;
@@ -33,11 +40,11 @@
     <h5><font size="3">Contact</font></h5>
   </a>
   {% endif %}
-  {% if include.active == "supervision" %}
-  <h5><font size="3" color="#FFFFFF">Supervision</font></h5>
+  {% if include.active == "teaching" %}
+  <h5><font size="3" color="#FFFFFF">Teaching</font></h5>
   {% else %}
   <a href="supervision.html">
-    <h5><font size="3">Supervision</font></h5>
+    <h5><font size="3">Teaching</font></h5>
   </a>
   {% endif %}
   {% if include.active == "tools" %}
